@@ -125,28 +125,44 @@ B: xxxx
 ---
 
 ## 🧠 Software Architecture
-firmware/  
-├── config/  
-│ └── config_bits.h  
-├── inc/  
-│ ├── utils.h  
-│ ├── uart.h  
-│ ├── i2c.h  
-│ ├── tcs34725.h  
-│ ├── lcd.h  
-│ ├── pwm.h  
-│ ├── spi_flash.h  
-│ └── app.h  
-└── src/  
-├── utils.c  
-├── uart.c  
-├── i2c.c  
-├── tcs34725.c  
-├── lcd.c  
-├── pwm.c  
-├── spi_flash.c  
-├── app.c  
-└── main.c
+````
+Colorimeter-BasysMX3/
+│
+├── firmware/
+│   │
+│   ├── config/
+│   │   └── config_bits.h
+│   │
+│   ├── inc/
+│   │   ├── app.h
+│   │   ├── i2c.h
+│   │   ├── lcd.h
+│   │   ├── pwm.h
+│   │   ├── spi_flash.h
+│   │   ├── tcs34725.h
+│   │   ├── uart.h
+│   │   └── utils.h
+│   │
+│   └── src/
+│       ├── app.c
+│       ├── i2c.c
+│       ├── lcd.c
+│       ├── main.c
+│       ├── pwm.c
+│       ├── spi_flash.c
+│       ├── tcs34725.c
+│       ├── uart.c
+│       └── utils.c
+│
+├── docs/
+│   ├── flowchart.pdf
+│   └── report.pdf
+│
+├── .gitignore
+├── README.md
+└── LICENSE
+````
+
 
 
 ### Main Modules
