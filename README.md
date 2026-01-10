@@ -155,8 +155,8 @@ Colorimeter-BasysMX3/
 │       └── utils.c
 │
 ├── docs/
-│   ├── flowchart.pdf
-│   └── report.pdf
+│   ├── Colorimetro_ Flowchart.png
+│   └── Colorimetro Basys MX3 + TCS34725_v2.pdf
 │
 ├── .gitignore
 ├── README.md
